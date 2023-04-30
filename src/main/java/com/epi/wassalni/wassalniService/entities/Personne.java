@@ -24,12 +24,11 @@ public class Personne implements Serializable {
     private String cin;
     private LocalDateTime dateNaissance;
     private Integer genre;
-    private String rue;
-    private String numero;
-    private String codePostal;
-    private String localite;
+    private String adresse;
     private String pays;
     private String role;
+    private int telephone;
+    private String userName;
 
 
 }

@@ -13,4 +13,5 @@ import java.util.List;
 public class Conducteur extends Personne{
     @OneToMany
     private List<Vehicule> vehicules;
+    private int nbVoyages;
 }
